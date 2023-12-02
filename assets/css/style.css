@@ -90,7 +90,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 60px;
 }
 
 #header.header-scrolled,
@@ -404,6 +404,10 @@ h6 {
   padding: 0 15px;
 }
 
+#hero .hero-container .img-fluid{
+  border-radius: 25px;
+}
+
 #hero h3 {
   background: rgba(255, 255, 255, 0.1);
   color: #fff;
@@ -517,6 +521,10 @@ section {
   color: #4EBAB9;
 }
 
+.section-title h4 span {
+  color: #4EBAB9;
+}
+
 .section-title p {
   margin: 15px auto 0 auto;
   font-weight: 600;
@@ -583,6 +591,11 @@ section {
   background: #4EBAB9;
   color: #fff;
   text-decoration: none;
+}
+
+.about .img-fluid{
+  border-radius: 25px;
+  max-height: 85%;
 }
 
 /*--------------------------------------------------------------
