@@ -5,6 +5,89 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+/*testimonials section*/
+var testiomnialData = [
+  
+  {
+    avatar: "https://i.ibb.co/K6ZBZjB/lucille.png",
+    name: "Lucille | Ireland",
+    p1: "Lucille was the first one to come on board and is now one of Ireland's top bookers!",
+    p2:""
+},
+  {
+    avatar: "https://i.ibb.co/K6ZBZjB/lucille.png",
+    name: "Elaine | Ireland",
+    p1: "Elaine joined for personal travel reasons and to start a business that had flexibility.",
+    p2:"She loves that she can put in as many or as little hours as she possibly can and yet still manage to save so much money on her and her family's travel costs, with access to all the best deals."
+},
+  {
+    avatar: "https://i.ibb.co/K6ZBZjB/lucille.png",
+    name: "Adele | UK",
+    p1: "Adele initially joined to team because of her passion for travel (she is a travel/lifestyle blogger).",
+    p2:"She has not only saved a lot of money, but has helped others tailor and book some wonderful holidays/experiences; earning commission whilst doing so!  She's loves being part of the team as she feels it is a very friend and supportive environment and is great to speak the same language of 'Travel'."
+},
+  {
+      avatar: "https://i.ibb.co/K6ZBZjB/lucille.png",
+      name: "Lucille | Ireland",
+      p1: "Lucille was the first one to come on board and is now one of Ireland's top bookers!",
+      p2:""
+  },
+  {
+      avatar: "https://i.ibb.co/K6ZBZjB/lucille.png",
+      name: "Lucille | Ireland",
+      p1: "Lucille was the first one to come on board and is now one of Ireland's top bookers!",
+      p2:""
+},
+  {
+      avatar: "https://i.ibb.co/K6ZBZjB/lucille.png",
+      name: "Lucille | Ireland",
+      p1: "Lucille was the first one to come on board and is now one of Ireland's top bookers!",
+      p2:""
+  },
+  {
+      avatar: "https://i.ibb.co/K6ZBZjB/lucille.png",
+      name: "Lucille | Ireland",
+      p1: "Lucille was the first one to come on board and is now one of Ireland's top bookers!",
+      p2:""
+  }, {
+      avatar: "https://i.ibb.co/K6ZBZjB/lucille.png",
+      name: "Lucille | Ireland",
+      p1: "Lucille was the first one to come on board and is now one of Ireland's top bookers!",
+      p2:""
+  }]
+var slideHolder = document.querySelector("#slideHolder")
+for (let i of testiomnialData) slideHolder.innerHTML += `<div class="swiper-slide"> <div class="ImgHolder"><img src="${i.avatar}"></div><div class="ContentHolder"><h3>${i.name}</h3><p>${i.p1}</p><p>${i.p2}</p></div></div>`
+
+const swiper = new Swiper('#craouselContainer', {
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: 2.3,
+  loop: true,
+  spaceBetween: 30,
+  effect: "coverflow",
+  coverflowEffect: {
+      rotate: 0,
+      depth: 800,
+      slideShadows: true,
+  },
+  pagination: {
+      el: '.swiper-pagination',
+      clickable: true
+  },
+  autoplay: { delay: 5000 }
+});
+window.onresize = queryResizer
+queryResizer()
+function queryResizer() {
+  if (window.innerWidth < 724) swiper.params.slidesPerView = 2
+  if (window.innerWidth > 501) swiper.params.slidesPerView = 2
+  if (window.innerWidth > 724) swiper.params.slidesPerView = 2.3
+  if (window.innerWidth < 501) swiper.params.slidesPerView = 1
+  swiper.update()
+}
+/*testimonials section*/
+
 (function() {
   "use strict";
 
