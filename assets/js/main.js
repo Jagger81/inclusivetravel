@@ -59,7 +59,7 @@ var testiomnialData = [
 var slideHolder = document.querySelector("#slideHolder")
 for (let i of testiomnialData) slideHolder.innerHTML += `<div class="swiper-slide"> <div class="ImgHolder"><img src="${i.avatar}"></div><div class="ContentHolder"><h3>${i.name}</h3><p>${i.p1}</p><p>${i.p2}</p></div></div>`
 
-const swiper = new Swiper('#craouselContainer', {
+const swiper = new Swiper('#carouselContainer', {
   grabCursor: true,
   centeredSlides: true,
   slidesPerView: 2.3,

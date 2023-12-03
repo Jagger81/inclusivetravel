@@ -2091,7 +2091,7 @@ section {
 
 .swiper-container {
   border-radius: 5px;
-  width: 90vw;
+  /**width: 90vw;**/
   overflow: hidden;
   height: fit-content;
   height: fit-content;
@@ -2102,7 +2102,7 @@ section {
 }
 
 .swiper-slide {
-  width: auto;
+  width: 50%;
   height: fit-content;
   display: flex;
   height: auto;
