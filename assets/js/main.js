@@ -16,42 +16,42 @@ var testiomnialData = [
     p2:""
 },
   {
-    avatar: "https://i.ibb.co/K6ZBZjB/lucille.png",
+    avatar: "https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg",
     name: "Elaine | Ireland",
     p1: "Elaine joined for personal travel reasons and to start a business that had flexibility.",
     p2:"She loves that she can put in as many or as little hours as she possibly can and yet still manage to save so much money on her and her family's travel costs, with access to all the best deals."
 },
   {
-    avatar: "https://i.ibb.co/K6ZBZjB/lucille.png",
+    avatar: "https://img.freepik.com/free-photo/indoor-shot-beautiful-happy-african-american-woman-smiling-cheerfully-keeping-her-arms-folded-relaxing-indoors-after-morning-lectures-university_273609-1270.jpg?w=1060&t=st=1701633753~exp=1701634353~hmac=a9e78fd40d8a2d1c163b8accddab5adad012eb82ea85f9c8fb9f978b3464d49f",
     name: "Adele | UK",
     p1: "Adele initially joined to team because of her passion for travel (she is a travel/lifestyle blogger).",
     p2:"She has not only saved a lot of money, but has helped others tailor and book some wonderful holidays/experiences; earning commission whilst doing so!  She's loves being part of the team as she feels it is a very friend and supportive environment and is great to speak the same language of 'Travel'."
 },
   {
-      avatar: "https://i.ibb.co/K6ZBZjB/lucille.png",
+      avatar: "https://img.freepik.com/free-photo/cheerful-middle-aged-woman-with-curly-hair_1262-20859.jpg?size=626&ext=jpg&ga=GA1.1.718526165.1701633703&semt=sph",
       name: "Lucille | Ireland",
       p1: "Lucille was the first one to come on board and is now one of Ireland's top bookers!",
       p2:""
   },
   {
-      avatar: "https://i.ibb.co/K6ZBZjB/lucille.png",
+      avatar: "https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg",
       name: "Lucille | Ireland",
       p1: "Lucille was the first one to come on board and is now one of Ireland's top bookers!",
       p2:""
 },
   {
-      avatar: "https://i.ibb.co/K6ZBZjB/lucille.png",
+      avatar: "https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg",
       name: "Lucille | Ireland",
       p1: "Lucille was the first one to come on board and is now one of Ireland's top bookers!",
       p2:""
   },
   {
-      avatar: "https://i.ibb.co/K6ZBZjB/lucille.png",
+      avatar: "https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg",
       name: "Lucille | Ireland",
       p1: "Lucille was the first one to come on board and is now one of Ireland's top bookers!",
       p2:""
   }, {
-      avatar: "https://i.ibb.co/K6ZBZjB/lucille.png",
+      avatar: "https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg",
       name: "Lucille | Ireland",
       p1: "Lucille was the first one to come on board and is now one of Ireland's top bookers!",
       p2:""
