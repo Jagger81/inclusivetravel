@@ -48,8 +48,8 @@ var testiomnialData = [
   {
       avatar: "https://i.ibb.co/zJKFPp1/louise.jpg",
       name: "Louise | Ireland",
-      p1: "Louise recently joined the team and will soon provide an update on her experience to date",
-      p2:""
+      p1: "Louise recently joined the team and is excited about the new adventure.  She was drawn to this opportunity by a huge passion for travel and exploring.",
+      p2:"From Nepal to New York and Reno, she has seen so many wonderful places and shared such great experiences with everyone she met along the way.  She says the support and encouragement from the team has been incredible and is excited to adapt her project management skills to help build her new business!"
   },
   {
       avatar: "https://img.freepik.com/free-photo/excited-beautiful-young-woman-smiling-hopeful-camera_176420-30192.jpg?w=1060&t=st=1701720501~exp=1701721101~hmac=d32d0b2ba9b26e470e7181cbda2f38b1891a3598ed4dd9d20d1f35a7e2be2507",
