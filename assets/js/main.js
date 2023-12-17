@@ -11,57 +11,34 @@ var testiomnialData = [
   
   {
     avatar: "https://i.ibb.co/7X90Bx7/amy-cropped.png",
-    name: "Amy | UK",
-    p1: "Amy works in the medical device industry, but travel is her main passion!  She has been part of the team since 2020 and has gained vast experience in that time, despite this being a side hustle.",
-    p2:"Although the financial gains have massively benefited her, she equally believes that this opportunity has changed her life in so many other ways.  It has taken her on a personal development journey, resulting in a fresh mindset, increase self-confidence, and it has also helped her develop existing and new relationships."
+    name: "Slava | UK",
+    p1: "text will go here text will go here text will go here text will go here",
+    p2:"tesxt will go here"
 },
 {
     avatar: "https://i.ibb.co/K6ZBZjB/lucille.png",
-    name: "Lucille | Ireland",
-    p1: "Lucille is a mum of 2 boys and joined the team in February 2023 when the programme launched in Ireland.  She knew instantly that it was what she was looking for.",
-    p2:"She has managed to use the programme to fulfil her and her family's desire for travel and has earned and saved money along the way - all by booking holidays and introducing other travel-enthusiasts to the programme"
+    name: "Julia | Ireland",
+    p1: "text will go here text will go here text will go here text will go here",
+    p2:"tesxt will go here"
 },
   {
     avatar: "https://img.freepik.com/free-photo/half-profile-beautiful-redhead-girl-with-healthy-freckled-skin-hair-bun-smiling_273609-9363.jpg?w=1060&t=st=1701720291~exp=1701720891~hmac=1f5e75d156bfbff440cd8c3b976ff7b4c93e2a8fa77a2c2990d9e9a357128e91",
-    name: "Elaine | Ireland",
-    p1: "Elaine joined for personal travel reasons and to start a business that had flexibility.",
-    p2:"She loves that she can put in as many or as little hours as she possibly can and yet still manage to save so much money on her and her family's travel costs, with access to all the best deals."
+    name: "Kim | Ireland",
+    p1: "text will go here text will go here text will go here text will go here",
+    p2:"tesxt will go here"
 },
   {
     avatar: "https://img.freepik.com/free-photo/indoor-shot-beautiful-happy-african-american-woman-smiling-cheerfully-keeping-her-arms-folded-relaxing-indoors-after-morning-lectures-university_273609-1270.jpg?w=1060&t=st=1701633753~exp=1701634353~hmac=a9e78fd40d8a2d1c163b8accddab5adad012eb82ea85f9c8fb9f978b3464d49f",
-    name: "Adele | UK",
-    p1: "Adele initially joined to team because of her passion for travel (she is a travel/lifestyle blogger).",
-    p2:"She has not only saved a lot of money, but has helped others tailor and book some wonderful holidays/experiences; earning commission whilst doing so!  She's loves being part of the team as she feels it is a very friend and supportive environment and is great to speak the same language of 'Travel'."
+    name: "Elaine | Ireland",
+    p1: "text will go here text will go here text will go here text will go here",
+    p2:"tesxt will go here"
 },
 {
     avatar: "https://i.ibb.co/X5WqTYX/zara-cropped.png",
-    name: "Zara | UK",
-    p1: "Zara is a busy Mom of 3 tiny humans and also works full-time, so this is a side hustle that neatly fits un around her busy lifestyle. She has built residual income as a result of the role, which will go towards her children's future",
-    p2:"She believes that everyone deserves that have the life they dream of; and can promise you that this opportunity will 100% manifest as an increased love of travel, financial gains and self-development."
-},
-  {
-      avatar: "https://img.freepik.com/free-photo/selfie-portrait-videocall_23-2149186122.jpg?w=1060&t=st=1701720431~exp=1701721031~hmac=753d5f1cd8fb8d4c87aa289a55b1dbb641755086ab8f3f1f9e55d99a350c54bf",
-      name: "Juanita | UK",
-      p1: "Juanita was enticed to join the team as a travel advisor, due to her experience of working in the travel industry.",
-      p2:"She enjoys the independance gained from working in a freelance role and has through her love of travel has helped to ehance the team performance."
-},
-  {
-      avatar: "https://i.ibb.co/zJKFPp1/louise.jpg",
-      name: "Louise | Ireland",
-      p1: "Louise recently joined the team and is excited about the new adventure.  She was drawn to this opportunity by a huge passion for travel and exploring.",
-      p2:"From Nepal to New York and Reno, she has seen so many wonderful places and shared such great experiences with everyone she met along the way.  She says the support and encouragement from the team has been incredible and is excited to adapt her project management skills to help build her new business!"
-  },
-  {
-      avatar: "https://img.freepik.com/free-photo/excited-beautiful-young-woman-smiling-hopeful-camera_176420-30192.jpg?w=1060&t=st=1701720501~exp=1701721101~hmac=d32d0b2ba9b26e470e7181cbda2f38b1891a3598ed4dd9d20d1f35a7e2be2507",
-      name: "Orna | Ireland",
-      p1: "Orna recently joined the team and will soon provide an update on her experience to date",
-      p2:""
-  }, {
-      avatar: "https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg",
-      name: "Rochelle | Ireland",
-      p1: "Rochelle recently joined the team and will soon provide an update on her experience to date",
-      p2:""
-  }]
+    name: "Veronica | UK",
+    p1: "text will go here text will go here text will go here text will go here",
+    p2:"tesxt will go here"
+},]
 var slideHolder = document.querySelector("#slideHolder")
 for (let i of testiomnialData) slideHolder.innerHTML += `<div class="swiper-slide"> <div class="ImgHolder"><img src="${i.avatar}"></div><div class="ContentHolder"><h3>${i.name}</h3><p>${i.p1}</p><p>${i.p2}</p></div></div>`
 

@@ -5,5 +5,5 @@ Template URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/
 Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/
 
-https://jagger81.github.io/houseoftravel/
+https://jagger81.github.io/inclusivetravel/
 
