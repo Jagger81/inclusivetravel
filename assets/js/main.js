@@ -10,34 +10,34 @@
 var testiomnialData = [
   
   {
-    avatar: "https://i.ibb.co/7X90Bx7/amy-cropped.png",
+    avatar: "https://i.ibb.co/9tBRY9j/icons8-female-profile-100.png",
     name: "Slava | UK",
-    p1: "text will go here text will go here text will go here text will go here",
-    p2:"tesxt will go here"
+    p1: "My name is Slava, I joined this business to try to build something outside of my busy accounting role in professional banking and to save money on my own travels.  ",
+    p2:"I’ve found that with hard work & dedication you can achieve a lot with this business, even if just part time. I am learning to save on my own travel which is great. I look forward to building this business in time."
 },
 {
-    avatar: "https://i.ibb.co/K6ZBZjB/lucille.png",
+    avatar: "https://i.ibb.co/GpHN8pp/Julia.jpg",
     name: "Julia | Ireland",
-    p1: "text will go here text will go here text will go here text will go here",
-    p2:"tesxt will go here"
+    p1: "My name is Julia, travel has always been a big part of my life. From a young age, I asked people to send me postcards from all their travels and I would put them up on my walls and dream about all these amazing places out there. I still have them all and believe my postcard dream collection is extensive. All this dreaming and family traveling eventually led me to study in the field of Tourism. I strongly believe the best investment you can make in life is to travel and learn from the beautiful world that is out there.",
+    p2:"And here I am now, 2 kids later and living in a different country myself, this amazing opportunity brings me back to the start of my childhood dreams. I can now bring the world to others in the most relaxing way. I love taking care of people and giving them the best opportunities and experiences to enjoy this beautiful world out there. This opportunity has given me a chance to bring back the high value of the travel agent service...a service that a lot of people underestimate!"
 },
   {
-    avatar: "https://img.freepik.com/free-photo/half-profile-beautiful-redhead-girl-with-healthy-freckled-skin-hair-bun-smiling_273609-9363.jpg?w=1060&t=st=1701720291~exp=1701720891~hmac=1f5e75d156bfbff440cd8c3b976ff7b4c93e2a8fa77a2c2990d9e9a357128e91",
-    name: "Kim | Ireland",
-    p1: "text will go here text will go here text will go here text will go here",
-    p2:"tesxt will go here"
+    avatar: "https://i.ibb.co/d5D98Zn/Veronica.jpg",
+    name: "Veronica | Ireland",
+    p1: "I’m Veronica, I’m Lucille’s sister. I joined this just to try save some money on my own trips, which I have been able to do.",
+    p2:"This has made a huge difference to me, as I love to travel but with the cost of living going up, it was getting harder to do so. But this has allowed me to travel smarter & save over €2k in the past year on trips I’ve taken."
 },
   {
-    avatar: "https://img.freepik.com/free-photo/indoor-shot-beautiful-happy-african-american-woman-smiling-cheerfully-keeping-her-arms-folded-relaxing-indoors-after-morning-lectures-university_273609-1270.jpg?w=1060&t=st=1701633753~exp=1701634353~hmac=a9e78fd40d8a2d1c163b8accddab5adad012eb82ea85f9c8fb9f978b3464d49f",
-    name: "Elaine | Ireland",
-    p1: "text will go here text will go here text will go here text will go here",
-    p2:"tesxt will go here"
+    avatar: "https://i.ibb.co/xsNTQ7m/Ellie.jpg",
+    name: "Ellie | Ireland",
+    p1: "Hi I’m Ellie, I’m an Operations Director for a busy company. I joined this opportunity to save on corporate & personal travel. Since joining in March 2023, I’ve saved on every trip I’ve taken, which more than covers the monthly cost. ",
+    p2:"Lucille has been a very supportive & knowledgeable mentor, who leads from the front. She is always on the end of the phone, ready to answer any questions. What would I say to someone thinking of joining? Do it, it’s low risk with high reward. The community is so supportive, being surrounded by like minded supportive people gives you motivation & support. "
 },
 {
-    avatar: "https://i.ibb.co/X5WqTYX/zara-cropped.png",
-    name: "Veronica | UK",
-    p1: "text will go here text will go here text will go here text will go here",
-    p2:"tesxt will go here"
+    avatar: "https://i.ibb.co/1Zz4SB5/Clare.jpg",
+    name: "Clare | UK",
+    p1: "I love travelling!  Who doesn’t?  Becoming an Independent Travel Agent has given me the opportunity to support my current lifestyle around work, my 2 children & a busy tennis schedule",
+    p2:"In my previous employment I booked the company’s travel and realised it was what I was most passionate about.  I hope with this new business venture I can provide fantastic and memorable holidays for all.  I mean, we are only on Earth for a short period of time - let’s explore it while we can!"
 },]
 var slideHolder = document.querySelector("#slideHolder")
 for (let i of testiomnialData) slideHolder.innerHTML += `<div class="swiper-slide"> <div class="ImgHolder"><img src="${i.avatar}"></div><div class="ContentHolder"><h3>${i.name}</h3><p>${i.p1}</p><p>${i.p2}</p></div></div>`
